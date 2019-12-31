@@ -16,7 +16,7 @@ function backup_and_create_symlink() {
 function main() {
     dir=~/dotfiles              # dotfiles directory
     olddir=~/dotfiles_old       # backup directory
-    files="bash_profile oh-my-zsh vimrc zshrc vscode"	# list of files/folders to symlink in homedir
+    files="bash_profile ideavimrc vimrc vscode zshrc"	# list of files/folders to symlink in homedir
 
     mkdir -p $olddir
     backup_and_create_symlink
