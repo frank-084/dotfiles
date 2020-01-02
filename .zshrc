@@ -12,7 +12,7 @@ if [ -f '~/google-cloud-sdk/completion.zsh.inc' ]; then
 fi
 
 # SET Var
-export ZSH="/Users/frank/.oh-my-zsh"
+export ZSH="${HOME}/.oh-my-zsh"
 export ZSH_CUSTOM="${ZSH}/custom"
 
 
